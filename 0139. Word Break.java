@@ -16,7 +16,7 @@ class Solution {
                 }
                 
                 String word = s.substring(i - lastWordLength, i);
-                if (wordDict.contains(word)) {
+                if (wordDict.contains(word)) { // 考虑单词长度时，hash 操作不是O(1)
                     canSegment[i] = true;
                     break;
                 } 
