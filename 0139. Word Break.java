@@ -1,3 +1,4 @@
+// O(N*L^2 + M)
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         if (s == null || s.length() == 0) {
