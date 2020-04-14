@@ -48,7 +48,7 @@ class Solution {
         List<String> nextWords = new ArrayList<>();
         
         for (int i = 0; i < word.length(); i++) {
-            for (char c = 'a'; c < 'z'; c++) {
+            for (char c = 'a'; c <= 'z'; c++) {
                 if (c == word.charAt(i)) {
                     continue;
                 }
