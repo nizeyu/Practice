@@ -10,7 +10,7 @@ class Solution {
                 return true;
             }
             
-            if (num / m <= m) {
+            if (num / m < m) {
                 r = m;
             } else {
                 l = m + 1;
