@@ -16,6 +16,7 @@ class Solution {
         
         if (firstSmall == -1) {
             reverseArray(0, nums.length - 1, nums);
+            return;
         }
         
         int firstLarge = -1;
