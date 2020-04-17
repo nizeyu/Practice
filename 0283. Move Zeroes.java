@@ -4,6 +4,27 @@ class Solution {
             return;
         }
         
+        for (int i = 0, j = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                swap(i, j, nums);
+                j++;
+            }
+        }
+    }
+    
+    private void swap(int i, int j, int[] nums) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+}
+
+class Solution {
+    public void moveZeroes(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return;
+        }
+        
         int i = 0;//pointer for 0
         int j = 0;//pointer for not 0
         while (i < nums.length && j < nums.length) {
