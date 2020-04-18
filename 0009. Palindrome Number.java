@@ -1,3 +1,4 @@
+// 方法一：reverse
 class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0) {
@@ -32,3 +33,5 @@ class Solution {
         return (int)result;
     }
 }
+
+// 方法二：直接比较原数
