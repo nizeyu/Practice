@@ -6,10 +6,10 @@ class Solution {
         
         int result = 0;
         
-        for (int i = 0; i < haystack.length() - needle.length() + 1; i++) {
+        for (int i = 0; i < haystack.length() - needle.length() + 1; i++) { // i < 5 - 2 + 1
             
             if (haystack.charAt(i) == needle.charAt(0)) {
-                int k = i;
+                int k = i; // 不能改变原来i 的值
                 for (int j = 0; j < needle.length(); j++) {
                     if (haystack.charAt(k) != needle.charAt(j)) {
                         break;
