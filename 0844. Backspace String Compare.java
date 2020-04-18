@@ -1,3 +1,4 @@
+// Two Pointers: 逆向思维
 class Solution {
     public boolean backspaceCompare(String S, String T) {
         if (S == null || T == null) {
