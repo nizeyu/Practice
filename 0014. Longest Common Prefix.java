@@ -1,3 +1,4 @@
+// 方法一：暴力搜索，可优化
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
@@ -28,3 +29,5 @@ class Solution {
         return sb.toString();
     }
 }
+
+// 方法二：sort
