@@ -10,7 +10,7 @@ class Solution {
             int mid = l + (r - l) / 2;
                         
             if (target == nums[mid]) {
-                r = mid; 
+                return mid; 
             } else if (target < nums[mid]) {
                 r = mid;
             } else {
