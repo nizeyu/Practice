@@ -1,4 +1,5 @@
 // 递归
+// 关键点：countAndSay(n - 1) + "#"
 class Solution {
     public String countAndSay(int n) {
         if (n == 1) {
